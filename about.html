@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Happivents</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="website icon" href="img/Logo.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+       
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Hero Section */
+        .about-hero {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            padding: 60px 0;
+        }
+
+        .about-image {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .about-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-content {
+            flex: 1;
+        }
+
+        .about-content h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        .about-content p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+       
+
+        @media (max-width: 768px) {
+            .about-hero {
+                flex-direction: column;
+            }
+
+            .about-image,
+            .about-content {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav id="navbar" style="background-color: black;">
+        <div class="nav-container">
+            <a href="#" class="logo">Happi<span>vents</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+              <li class="dropdown">
+                    <a href="events.html">Events <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="corporate.html">Corporate Events</a></li>
+                        <li><a href="birthday.html">Birthday Parties</a></li>
+                        <li><a href="wedding.html">Weddings</a></li>
+                        <li><a href="farewell.html">Farewell Party</a></li>
+                        <li><a href="beachparty.html">Beach Party</a></li>
+                        <li><a href="festive and concert.html">Festival & Concert</a></li>
+                    </ul>
+                </li>
+                <li><a class='active' href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- section -->
+    <div class="container" style=" position:relative;top: 50px;">
+        <!-- Hero Section -->
+        <section class="about-hero">
+            <div class="about-image">
+                <img src="img/Logo.jpg" alt="Happy Events Team">
+            </div>
+            <div class="about-content">
+                <h1><strong>Our Story</strong></h1>
+                <p>Welcome to Happy Events, where we transform ordinary moments into extraordinary memories. Founded in
+                    2024, we've been passionate about creating unforgettable experiences for our clients.</p>
+                <p>Our journey began with a simple idea: to make event planning stress-free and enjoyable. Today, we're
+                    proud to be one of the leading event management companies, known for our attention to detail and
+                    personalized service.</p>
+                <p>We believe that every event tells a unique story, and we're here to help you write yours. From
+                    intimate gatherings to grand celebrations, we handle every aspect with care and professionalism.</p>
+            </div>
+        </section>
+        <h1 style="display: flex; justify-content: center; align-items: center; font-size: 2.5rem"><strong>Our Services</strong></h1>
+        <div class="stats">
+            <div class="stat-item">
+                <h4>500+</h4>
+                <p>Events Organized</p>
+            </div>
+            <div class="stat-item">
+                <h4>98%</h4>
+                <p>Client Satisfaction</p>
+            </div>
+            <div class="stat-item">
+                <h4>50+</h4>
+                <p>Awards Won</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Founders Section -->
+    <section class="our-team">
+        <div class="container">
+            <h2 style="display: flex; justify-content: center; align-items: center; font-size: 2.5rem ;"><strong>Meet Our Team</strong></h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="img/Afreed-img.jpg" alt="Team Member 1">
+                    <h3>Mohd Afreed</h3>
+                    <p>CEO & Founder</p>
+                </div>
+                <div class="team-member">
+                    <img src="img/Fuzail-img.jpg" alt="Team Member 2">
+                    <h3>Mohd Fuzail</h3>
+                    <p>Head of Operations</p>
+                </div>
+                <div class="team-member">
+                    <img src="img/amjad-img.jpeg" alt="Team Member 3">
+                    <h3>Mohd Amjad</h3>
+                    <p>Lead Tester</p>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+  
+     <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>Happivents</h3>
+                <p>Creating unforgettable experiences through exceptional event planning and execution.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Event Services</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Corporate Events</a></li>
+                    <li><a href="#">Wedding Planning</a></li>
+                    <li><a href="#">Birthday Parties</a></li>
+                    <li><a href="#">Farewell Parties</a></li>
+                    <li><a href="#">Festival & Concerts</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our newsletter for the latest event trends and offers.</p>
+                <form class="newsletter-form">
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <button type="submit" class="submit-btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 happivents. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script>
+                // Mobile Menu Toggle
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+
+        hamburger.addEventListener('click', function () {
+            navLinks.classList.toggle('active');
+            hamburger.innerHTML = navLinks.classList.contains('active')
+                ? '<i class="fas fa-times"></i>'
+                : '<i class="fas fa-bars"></i>';
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                hamburger.innerHTML = '<i class="fas fa-bars"></i>';
+            });
+        });
+    </script>
+
+</body>
+
+</html>
